@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         _move = GetComponent<Move>();
+        _move.Initialize();
     }
 
     // Update is called once per frame
