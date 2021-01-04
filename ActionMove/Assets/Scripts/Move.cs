@@ -9,6 +9,5 @@ public abstract class Move : MonoBehaviour
     /// <summary>
     /// 移動
     /// </summary>
-    /// <param name="dir">進行方向</param>
-    public abstract void Moving(Vector3 dir);
+    public abstract void Moving();
 }
