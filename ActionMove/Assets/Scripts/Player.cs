@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private Move _move;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        _move = GetComponent<Move>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        _move.Moving();
     }
 }
